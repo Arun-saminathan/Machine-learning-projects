@@ -1,8 +1,5 @@
 # ML-lab
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kbdharun/ML-Lab)
-
-This repository contains the programs that I worked out in Machine Learning Laboratory.
+This repository contains Machine Learning Programs.
 
 ## Index
 
