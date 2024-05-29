@@ -75,15 +75,3 @@ If you are using `conda` to manage your environments, you can create a new envir
 > For faster environment solving in Conda, I would suggesting using the `libmamba` solver. You can set it as the default solver using the command `conda config --set solver libmamba`.
 
 Then, you can install all the required packages using the command `conda install --file requirements.txt`.
-
-### Container Image
-
-Alternatively, you can use the [container image](https://github.com/kbdharun/ML-Lab/pkgs/container/ml-lab-image) I created with all the packages preinstalled.
-
-You can install it in [Distrobox](https://github.com/89luca89/distrobox) with the command `distrobox create -i ghcr.io/kbdharun/ml-lab-image:latest -n ml` and use it with the command `distrobox enter ml`.
-
-Additionally, you can verify the authenticity of the container image using [`cosign`](https://github.com/sigstore/cosign) (download the `cosign.pub` file from [here](cosign.pub) and execute the following command):
-
-```zsh
-cosign verify --key cosign.pub ghcr.io/kbdharun/ml-lab-image:latest
-```
