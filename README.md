@@ -1,4 +1,4 @@
-# ML-lab
+# Machine Learning Projects
 This repository contains Machine Learning Programs.
 
 ## Index
@@ -72,3 +72,4 @@ If you are using `conda` to manage your environments, you can create a new envir
 > For faster environment solving in Conda, I would suggesting using the `libmamba` solver. You can set it as the default solver using the command `conda config --set solver libmamba`.
 
 Then, you can install all the required packages using the command `conda install --file requirements.txt`.
+
